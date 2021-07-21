@@ -1,0 +1,50 @@
+.comment{
+    margin-top: 20px;
+    margin-left: 10px;
+    overflow-y: scroll;
+height: 600px;
+}
+
+
+.msg{
+    border: 1px solid gray;
+    padding: 10px 15px;
+    border-radius: 10px;
+    height: 150px;
+    width: 450px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+}
+.msg-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.msg-content span{
+   margin-bottom: 13px;
+   font-size: 12px;
+}
+.msg .tarih{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comment .send-message{
+    display: flex;
+    align-items: center;
+    
+}
+.comment .send-message button{
+    background-color: blueviolet;
+    width: 100px;
+    height: 40px;
+    border-radius: 0;
+}
+.comment .send-message input{
+    height: 40px;
+    flex: 1;
+}
+.comment .send-message{
+    margin-top: 10px;
+}

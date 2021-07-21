@@ -1,0 +1,334 @@
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 100%;
+    border-bottom: 1px solid rgb(227, 227, 227);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition:all 1s;
+    height: 124.5px;
+
+}
+
+.header .inputt{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(220, 219, 219);
+    color: rgb(159, 157, 157);
+    flex: 0.4;
+    padding: 7px;
+    border-radius: 25px;
+    opacity: 0.6;
+    background-color: white;
+    height: 50px;
+    box-shadow: 2px 2px 5px gray;
+}
+.header .inputt input{
+    outline: none;
+    border: none;
+    flex:1;
+    font-weight: bold;
+    color: rgb(154, 154, 154);
+    letter-spacing: -0.5px;
+}
+.header .inputt button{
+    background-color: #ea881f;
+    color: white;
+    font-weight: 700;
+    padding: 9px 20px;
+    border: none;
+    border-radius: 30px; 
+    letter-spacing: 1px;   
+}
+.header .inputt .MuiSvgIcon-root{
+    font-size: 30px;
+}
+
+
+.header-right .addhover:hover{
+    background-color: rgb(198, 88, 4);
+    cursor: pointer;
+}
+
+
+
+img{
+    width: 200px;
+    height: 100px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.header-right button{
+    padding:6px 20px;
+    font-weight: bolder;
+    font-size: 17px;
+    margin-right: 13px;
+    color: #0091D5;
+    border:1px solid #0091D5 ;
+    border-radius: 30px;
+    background-color: transparent;
+    
+}
+.header-right button:nth-child(1){
+    border: none;
+    background-color: transparent;
+    font-weight: 800; 
+    padding:7px 4px;
+
+}
+.header-right button:nth-child(2):hover{
+
+    background-color: #0091D5;
+    color: whitesmoke;
+    
+}
+.header-right .MuiSvgIcon-root{
+    border: 1px solid transparent;
+    padding: 5px;
+    font-size: 50px;
+    background-color: #F68F20;
+    color: whitesmoke;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.header-right span{
+    position: absolute;
+    right:-7px;
+    top: -4px;
+    border: 1px solid crimson;
+    padding: 0px 6px;
+    font-weight: bold;
+    background-color: crimson;
+    color: white;
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+@media  screen and (max-width:835px) {
+    .header{
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(255, 255, 255);
+        padding: 15px;
+        width: 100%;
+        border-bottom: 1px solid rgb(227, 227, 227);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    .iki{
+      display: none;
+    }
+    .header .inputt{
+        display: flex;
+        align-items: center;
+        border: 1px solid rgb(220, 219, 219);
+        color: rgb(159, 157, 157);
+        flex: 0.4;
+        padding: 7px;
+        border-radius: 25px;
+        opacity: 0.6;
+        background-color: white;
+        height: 40px;
+        box-shadow: 2px 2px 5px gray;
+    }
+    .header .inputt input{
+        outline: none;
+        border: none;
+        flex:1;
+        font-weight: bold;
+        color: rgb(154, 154, 154);
+        letter-spacing: -0.5px;
+    }
+    .header .inputt button{
+        background-color: #ea881f;
+        color: white;
+        font-weight: 700;
+        padding: 9px 20px;
+        border: none;
+        border-radius: 30px; 
+        letter-spacing: 1px;  
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .header .inputt .MuiSvgIcon-root{
+        font-size: 30px;
+    }
+    .header-right button{
+        padding:6px 20px;
+        font-weight: bolder;
+        font-size: 15px;
+        margin-right: 13px;
+        color: #0091D5;
+        border:1px solid #0091D5 ;
+        border-radius: 30px;
+        background-color: transparent;
+        
+    }
+    .header-right button:nth-child(1){
+        border: none;
+        background-color: transparent;
+        font-weight: 800; 
+        padding:7px 4px;
+    
+    }
+    .header-right button:nth-child(2):hover{
+    
+        background-color: #0091D5;
+        color: whitesmoke;
+        
+    }
+    .header-right .MuiSvgIcon-root{
+        border: 1px solid transparent;
+        padding: 5px;
+        font-size: 40px;
+        background-color: #F68F20;
+        color: whitesmoke;
+        border-radius: 50%;
+        margin-left: 15px;
+    }
+    .header-right span{
+        position: absolute;
+        right:-7px;
+        top: -4px;
+        border: 1px solid crimson;
+        padding: 0px 6px;
+        font-weight: bold;
+        background-color: crimson;
+        color: white;
+        border-radius: 50%;
+        font-size: 11px;
+    }
+    
+  }
+  @media  screen and (max-width:606px) {
+    .header-right span{
+        position: absolute;
+        right:-7px;
+        top: 0px;
+        border: 1px solid crimson;
+        padding: 0px 6px;
+        font-weight: bold;
+        background-color: crimson;
+        color: white;
+        border-radius: 50%;
+        font-size: 11px;
+    }  
+    .header-right button{
+        padding:6px 14px;
+        font-weight: bolder;
+        font-size: 13px;
+        margin-right: 13px;
+        color: #0091D5;
+        border:1px solid #0091D5 ;
+        border-radius: 30px;
+        background-color: transparent;
+        
+    }
+    .header-right button:nth-child(1){
+        border: none;
+        background-color: transparent;
+        font-weight: 800; 
+        padding:7px 4px;
+        margin-left: 5px;
+    
+    }
+  }
+
+  @media  screen and (max-width:540px){
+    
+    .header .inputt{
+        display: flex;
+        align-items: center;
+        border: 1px solid rgb(220, 219, 219);
+        color: rgb(159, 157, 157);
+        flex: 0.3;
+        padding: 6px;
+        border-radius: 25px;
+        opacity: 0.6;
+        background-color: white;
+        height: 35px;
+        box-shadow: 2px 2px 5px gray;
+    }
+    .header .inputt input{
+        outline: none;
+        border: none;
+        flex:1;
+        font-weight: bold;
+        color: rgb(154, 154, 154);
+        letter-spacing: -0.5px;
+        font-size: 13px;
+    }
+    .header .inputt button{
+        background-color: #ea881f;
+        color: white;
+        font-weight: 700;
+        padding: 9px 10px;
+        border: none;
+        border-radius: 30px; 
+        letter-spacing: 1px;  
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .header-right button{
+        padding:6px 3px;
+        font-weight: bolder;
+        font-size: 10px;
+        margin-right: 6px;
+        color: #0091D5;
+        border:1px solid #0091D5 ;
+        border-radius: 30px;
+        background-color: transparent;
+        
+    }
+    .header-right button:nth-child(1){
+        border: none;
+        background-color: transparent;
+        font-weight: 400; 
+        padding:7px 2px;
+        margin-left: 5px;
+        width: 67px;
+    
+    }
+    .header-right button:nth-child(2){
+        display: none;
+    
+    }
+    .header-right .MuiSvgIcon-root{
+        border: 1px solid transparent;
+        padding: 5px;
+        font-size: 35px;
+        background-color: #F68F20;
+        color: whitesmoke;
+        border-radius: 50%;
+        margin-left: 5px;
+    }
+    .header-right span{
+        position: absolute;
+        right:-7px;
+        top: -4px;
+        border: 1px solid crimson;
+        padding: 0px 6px;
+        font-weight: bold;
+        background-color: crimson;
+        color: white;
+        border-radius: 50%;
+        font-size: 10px;
+    }
+  }

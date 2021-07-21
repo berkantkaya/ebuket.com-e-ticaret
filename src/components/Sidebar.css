@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+.sidebar{
+    width: 400px;
+    background-color: whitesmoke;
+    height: 860px;
+   position: sticky;
+   left: 0;
+   z-index: 500;
+    top: 100px;
+}
+
+.sidebar ul li{
+    list-style: none;
+    padding: 13px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   transition: all 0.5s;
+}
+.sidebar ul li span{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-family: 'Otomanopee One', sans-serif;
+    opacity: 0.8;
+    padding-left: 15px;
+}
+.sidebar ul{
+    margin-top: 30px;
+}
+
+.sidebar ul li .drop{
+    position: relative;
+    transition: all 1s;
+    
+}
+.sidebar ul li .dropd{
+    position: relative;
+    transition: all 1s;
+
+    
+}
+.sidebar ul li img{
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.sidebar ul li .drop-out{
+    background-color: rgb(131, 142, 228);
+    width: 100%;
+    border:1px solid transparent;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.sidebar i{
+    color: rgb(189, 189, 189);
+    font-size: 23px;
+}
+
+.sidebar li:hover{
+    background-color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    color: #0091D5 ;
+
+}
+.sidebar li:hover i{
+    color: #0091D5 ;
+
+}
+
+.sidebar li:nth-child(10){
+    color: #16abf0;
+    position: relative;
+    
+}
+
+
+
+.sidebar li:nth-child(11){
+    color: crimson;
+}
+.sidebar li:nth-child(12){
+    color: green;
+}
+.sidebar li:nth-child(13){
+    color: orange;
+}
+.sidebar li:nth-child(14){
+    color: gray;
+}
+
+.sidebar .blue{
+    width: 22px;
+    height: 22px;
+    background-color: #0091D5;
+    border:1px solid #0091D5 ;
+    border-radius: 50%;
+}
+.sidebar .orange{
+    width: 22px;
+    height: 22px;
+    background-color: orangered;
+    border:1px solid orangered ;
+    border-radius: 50%;
+}
+.sidebar .red{
+    width: 22px;
+    height: 22px;
+    background-color: crimson;
+    border:1px solid crimson ;
+    border-radius: 50%;
+}
+.sidebar .green{
+    width: 22px;
+    height: 22px;
+    background-color: green;
+    border:1px solid green ;
+    border-radius: 50%;
+}
+.sidebar .gray{
+    width: 22px;
+    height: 22px;
+    background-color: gray;
+    border:1px solid gray ;
+    border-radius: 50%;
+}
+
+
+@media  screen and (max-width:1000px) {
+    .sidebar{
+      display: none;
+    }
+  }

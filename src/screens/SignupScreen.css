@@ -1,0 +1,37 @@
+.signup-screen{
+  margin-top: 10px;
+  height: 73vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+background-image: url('https://images.assetsdelivery.com/compings_v2/marinamay/marinamay1707/marinamay170700009.jpg');
+background-repeat: no-repeat;
+background-position-x:center ;
+  font-family: cursive;
+}
+.signup-screen .forminput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-screen .forminput .inputOut{
+    width: 400px;
+    margin-top: 15px;
+}
+
+.signup-screen  button{
+    margin-top: 35px;
+    width: 400px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+.signup-screen h2{
+    text-align: center;
+    color: rgb(93, 16, 138);
+}

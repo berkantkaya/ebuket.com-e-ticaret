@@ -1,0 +1,121 @@
+.searchscreen{
+  background-color: white;
+
+ 
+  margin-top: 10px;
+ 
+  font-family: cursive;
+}
+
+.urun-search{
+    margin-left:10px ;
+     display: flex;
+     justify-content: center;
+    
+}
+.urun-search .ilk{
+    border: 1px solid white;
+    box-shadow: 2px 2px 7px gray;
+    margin: 10px 20px;
+    padding: 0px 20px;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.urun-search .ilk:hover{
+    border: 1px solid rgb(83, 125, 230);
+    cursor: pointer;
+    
+}
+.urun-search img{
+    height: 200px;
+}
+
+
+
+.urun-search .ilk button{
+ 
+ margin-top: 30px;
+ width: 220px;
+ height: 40px;
+ border-radius: 10px;
+ background-color: whitesmoke;
+ border: transparent;
+ box-shadow: 2px 2px 5px gray;
+}
+.urun-search .urun-adi{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color:black
+  }
+  a:hover{
+      color: black;
+  }
+
+  @media  screen and (max-width:1000px) {
+    .searchscreen{
+        margin-left: 10px;
+      background-color: white;
+    
+     font-size: 16px;
+      margin-top: 10px;
+     
+      font-family: cursive;
+    }
+    
+    .urun-search{
+        margin-left:10px ;
+         display: flex;
+         justify-content: center;
+        
+    }
+    .urun-search .ilk{
+        border: 1px solid white;
+        box-shadow: 2px 2px 7px gray;
+        margin: 10px 20px;
+        padding: 0px 20px;
+        width: 280px;
+        height: 320px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .urun-search .ilk:hover{
+        border: 1px solid rgb(83, 125, 230);
+        cursor: pointer;
+        
+    }
+    .urun-search img{
+        height: 130px;
+        width: 130px;
+        margin-top: 10px;
+    }
+    
+    
+    
+    .urun-search .ilk button{
+     
+     margin-top: 30px;
+     width: 170px;
+     height: 30px;
+     border-radius: 10px;
+     background-color: whitesmoke;
+     border: transparent;
+     box-shadow: 2px 2px 5px gray;
+    }
+  }

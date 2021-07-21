@@ -1,0 +1,6 @@
+export const TYPES={
+    SEARCH:'SEARCH',
+    ADD_CARD:'ADD_CARD',
+    REMOVE_CARD:'REMOVE_CARD',
+    MODAL:'MODAL'
+}
